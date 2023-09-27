@@ -52,11 +52,13 @@ public class MasterMind {
 
 
 
+
     /* INSERT CONSTRUCTOR BELOW
      * This constructor will have one parameter of the type String.
-     * constructors need to have the same name as it's class, start with a capitalized
-     * letter and be public.
+     * Constructors need to have the same name as it's class, start with a capitalized
+     * letter, and be public.
      */
+
 
 
 
@@ -67,5 +69,21 @@ public class MasterMind {
      */
 
 
-    
+
+
+    public static void main(String[] args) {
+        // Uncomment the following code to test your class
+
+        // MasterMind puzzle = new MasterMind("LIGHT");
+        // System.out.print("Expected: ++++T   ");
+        // System.out.println("Result: " + puzzle.getHint("TTTTT"));
+        // System.out.print("Expected: ****T   ");
+        // System.out.println("Result: " + puzzle.getHint("MOUNT"));
+        // System.out.print("Expected: +**+T   ");
+        // System.out.println("Result: " + puzzle.getHint("HABIT"));
+        // System.out.print("Expected: *IGHT   ");
+        // System.out.println("Result: " + puzzle.getHint("FIGHT"));
+        // System.out.print("Expected: LIGHT   ");
+        // System.out.println("Result: " + puzzle.getHint("LIGHT"));
+    }
 }
